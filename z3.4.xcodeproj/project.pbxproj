@@ -8,19 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		B4DC81363F8DD000BB90B485 /* Pods_z3_4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F037F050B7AAE921FEB297BC /* Pods_z3_4.framework */; };
+		D10D421C29F8168A005D0D37 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D421B29F8168A005D0D37 /* MainController.swift */; };
+		D10D421F29F8179B005D0D37 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D421E29F8179B005D0D37 /* NetworkManager.swift */; };
+		D10D422129FA747F005D0D37 /* TabarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D422029FA747F005D0D37 /* TabarController.swift */; };
+		D10D422329FA7517005D0D37 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D422229FA7517005D0D37 /* FavouriteViewController.swift */; };
+		D10D422729FA80DA005D0D37 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D10D422629FA80DA005D0D37 /* Kingfisher */; };
 		D19F47BA29F147440029489B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F47B929F147440029489B /* AppDelegate.swift */; };
 		D19F47BC29F147440029489B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F47BB29F147440029489B /* SceneDelegate.swift */; };
 		D19F47BE29F147440029489B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F47BD29F147440029489B /* ViewController.swift */; };
 		D19F47C129F147440029489B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19F47BF29F147440029489B /* Main.storyboard */; };
 		D19F47C329F147450029489B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19F47C229F147450029489B /* Assets.xcassets */; };
 		D19F47C629F147450029489B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19F47C429F147450029489B /* LaunchScreen.storyboard */; };
-		D19F47CE29F148790029489B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F47CD29F148790029489B /* Product.swift */; };
+		D19F47CE29F148790029489B /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F47CD29F148790029489B /* MainModel.swift */; };
 		D19F47D029F150E20029489B /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F47CF29F150E20029489B /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41DC7EC5C8773122D51782C6 /* Pods-z3.4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-z3.4.debug.xcconfig"; path = "Target Support Files/Pods-z3.4/Pods-z3.4.debug.xcconfig"; sourceTree = "<group>"; };
 		A0096D8C1FA04A9AE2A022CE /* Pods-z3.4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-z3.4.release.xcconfig"; path = "Target Support Files/Pods-z3.4/Pods-z3.4.release.xcconfig"; sourceTree = "<group>"; };
+		D10D421B29F8168A005D0D37 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		D10D421E29F8179B005D0D37 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D10D422029FA747F005D0D37 /* TabarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabarController.swift; sourceTree = "<group>"; };
+		D10D422229FA7517005D0D37 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 		D19F47B629F147440029489B /* z3.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = z3.4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19F47B929F147440029489B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D19F47BB29F147440029489B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +38,7 @@
 		D19F47C229F147450029489B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D19F47C529F147450029489B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D19F47C729F147450029489B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D19F47CD29F148790029489B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D19F47CD29F148790029489B /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
 		D19F47CF29F150E20029489B /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		F037F050B7AAE921FEB297BC /* Pods_z3_4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_z3_4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -39,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10D422729FA80DA005D0D37 /* Kingfisher in Frameworks */,
 				B4DC81363F8DD000BB90B485 /* Pods_z3_4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +73,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D10D421A29F815F4005D0D37 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D19F47BD29F147440029489B /* ViewController.swift */,
+				D19F47CD29F148790029489B /* MainModel.swift */,
+				D10D421B29F8168A005D0D37 /* MainController.swift */,
+				D19F47CF29F150E20029489B /* ProductCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D10D421D29F81791005D0D37 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				D10D421E29F8179B005D0D37 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		D10D422429FA7583005D0D37 /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				D10D422229FA7517005D0D37 /* FavouriteViewController.swift */,
+			);
+			path = Favourite;
+			sourceTree = "<group>";
+		};
 		D19F47AD29F147440029489B = {
 			isa = PBXGroup;
 			children = (
@@ -84,15 +121,16 @@
 		D19F47B829F147440029489B /* z3.4 */ = {
 			isa = PBXGroup;
 			children = (
+				D10D422429FA7583005D0D37 /* Favourite */,
+				D10D421D29F81791005D0D37 /* NetworkManager */,
+				D10D421A29F815F4005D0D37 /* Main */,
 				D19F47B929F147440029489B /* AppDelegate.swift */,
 				D19F47BB29F147440029489B /* SceneDelegate.swift */,
-				D19F47BD29F147440029489B /* ViewController.swift */,
 				D19F47BF29F147440029489B /* Main.storyboard */,
 				D19F47C229F147450029489B /* Assets.xcassets */,
 				D19F47C429F147450029489B /* LaunchScreen.storyboard */,
 				D19F47C729F147450029489B /* Info.plist */,
-				D19F47CD29F148790029489B /* Product.swift */,
-				D19F47CF29F150E20029489B /* ProductCell.swift */,
+				D10D422029FA747F005D0D37 /* TabarController.swift */,
 			);
 			path = z3.4;
 			sourceTree = "<group>";
@@ -115,6 +153,9 @@
 			dependencies = (
 			);
 			name = z3.4;
+			packageProductDependencies = (
+				D10D422629FA80DA005D0D37 /* Kingfisher */,
+			);
 			productName = z3.4;
 			productReference = D19F47B629F147440029489B /* z3.4.app */;
 			productType = "com.apple.product-type.application";
@@ -143,6 +184,9 @@
 				Base,
 			);
 			mainGroup = D19F47AD29F147440029489B;
+			packageReferences = (
+				D10D422529FA80D9005D0D37 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = D19F47B729F147440029489B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -213,9 +257,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D19F47BE29F147440029489B /* ViewController.swift in Sources */,
-				D19F47CE29F148790029489B /* Product.swift in Sources */,
+				D19F47CE29F148790029489B /* MainModel.swift in Sources */,
 				D19F47D029F150E20029489B /* ProductCell.swift in Sources */,
+				D10D421F29F8179B005D0D37 /* NetworkManager.swift in Sources */,
+				D10D422329FA7517005D0D37 /* FavouriteViewController.swift in Sources */,
 				D19F47BA29F147440029489B /* AppDelegate.swift in Sources */,
+				D10D421C29F8168A005D0D37 /* MainController.swift in Sources */,
+				D10D422129FA747F005D0D37 /* TabarController.swift in Sources */,
 				D19F47BC29F147440029489B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +480,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D10D422529FA80D9005D0D37 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D10D422629FA80DA005D0D37 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D10D422529FA80D9005D0D37 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D19F47AE29F147440029489B /* Project object */;
 }
